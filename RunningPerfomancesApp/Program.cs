@@ -118,8 +118,7 @@ namespace Running_perfomance
                             default:
                                 Console.WriteLine("You enter wrong value");
                                 break;
-
-                        }
+                         }
                         break;
                     case 3:
                         Console.WriteLine("Enter distance:");
@@ -250,8 +249,8 @@ namespace Running_perfomance
                     perfomances.Distance = time / pace;
                     Console.WriteLine($" Your speed: {Math.Round(perfomances.Speed, 2)} km/hour");
                     Console.WriteLine($" Your distance: {Math.Round(perfomances.Distance, 2)} km");
-
                 }
+
                 void GetSpeedAndTime()
                 {
                     perfomances.Speed = 60 / pace;
@@ -289,10 +288,7 @@ namespace Running_perfomance
                     break;
                 }
                 Console.Clear();
-
-            }
-
-
+             }
         }
     }
 }
